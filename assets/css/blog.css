@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.intro, .content, footer {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2, .content .section h2, footer h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.intro p, .content .section p, footer p {
+    font-size: 1.1em;
+}
+
+.img-holder {
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+.img-holder img {
+    max-width: 100%;
+    
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+
+.btn-custom {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.btn-custom:active {
+    background-color: #004494; /* Even darker shade for active state */
+}
